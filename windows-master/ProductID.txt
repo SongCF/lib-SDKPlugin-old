@@ -1,0 +1,60 @@
+{
+	"description":"price单位是分，且为整型",
+	"VersionChannelID":"000001",
+    "Product": [
+        {
+            "ID": 1,
+			"name":"超能道具*1",
+			"describe":"花费6元，购买1个超能道具",
+			"price":600,
+			"channel":[
+				{
+					"channelName":"AppStore",
+					"channelID":"000001",
+                    "productID":"buy.one.supertool"
+				},
+				{
+					"channelName":"Google Play",
+					"channelID":"000002",
+                    "productID":"buy.one.supertool.googleplay"
+				}
+			]
+        },
+		{
+            "ID": 2,
+			"name":"超能道具*10",
+			"describe":"花费18元，购买10个超能道具",
+			"price":1800,
+			"channel":[
+				{
+					"channelName":"AppStore",
+					"channelID":"000001",
+                    "productID":"buy.ten.supertool"
+				},
+				{
+					"channelName":"Google Play",
+					"channelID":"000002",
+                    "productID":"buy.ten.supertool.googleplay"
+				}
+			]
+        },
+        {
+            "ID": 3,
+			"name":"官方解法包",
+			"describe":"花费18元，购买官方解法",
+			"price":1800,
+			"channel":[
+				{
+					"channelName":"AppStore",
+					"channelID":"000001",
+					"productID":"buy.all.solution"
+				},
+				{
+					"channelName":"Google Play",
+					"channelID":"000002",
+					"productID":"buy.all.solution.googleplay"
+				}
+			]
+        }
+    ]
+}
