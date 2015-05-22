@@ -4,7 +4,7 @@
 一个第三方sdk插件的集合(Android / iOS平台)，是用cocos2d-x开发游戏时，接入第三方sdk的一个整合包，为了方便第三方sdk的二次接入，和删除。
 
 #SDK列表
-目前包含的sdk如下
+目前已包含的sdk如下
 - AppStore
 - GooglePlay
 - DataEye
